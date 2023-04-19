@@ -1,4 +1,4 @@
-section{
+.signUpSection{
     background-color: #DDDDDD;
     height: 100vh;
     width: 100%;
@@ -47,10 +47,10 @@ section{
         }
 
         .active, .disabled {
-            /* Estilo dos botões */
             display: flex;
             align-self: flex-end;
             width: 111px;
+            cursor: pointer;
             align-items: center;
             justify-content: center;
             color: #ffffff;
@@ -59,7 +59,7 @@ section{
             padding: 0.68rem 1.1rem;
             border-radius: 0.8rem;
             border: none;
-            transition: background-color 0.5s ease; /* Transição da cor de fundo com duração de 0.5 segundos */
+            transition: background-color 0.5s ease;
           }
           
           .active {

@@ -1,0 +1,46 @@
+.post{
+
+    border-radius: 1.6rem;
+    border: 1px solid #999999;
+   
+    .postHeader{
+        background-color: #7695EC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.4rem;
+        color: white;
+        border-top-left-radius: 1.6rem;
+        border-top-right-radius: 1.6rem;
+    
+        h2{
+            font-size: 2.2rem;
+        }
+        
+        .icons{
+            display: flex;
+            gap: 1.6rem;
+            font-size: 3.4rem;
+           
+        }
+    }
+    
+    .author{
+        display: flex;
+        justify-content: space-between;
+        padding: 2.4rem;
+
+        p{
+            font-size: 1.8rem;
+            color: #777777;
+        }
+
+    }
+
+    .postContent{
+        padding: 2.4rem;
+        font-size: 1.8rem;
+        
+    }
+    
+}

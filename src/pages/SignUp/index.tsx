@@ -37,7 +37,7 @@ export const SignUp = () => {
 
   return (
     <>
-      <section>
+      <section className={styles.signUpSection}>
         <div className={styles.container}>
           <h1>Welcome to CodeLeap network </h1>
           <form onSubmit={handleSubmit(onUserSubmit)}>

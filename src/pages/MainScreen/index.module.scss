@@ -1,0 +1,97 @@
+
+    .header{
+        padding: 2.7rem 3.7rem;
+        display: flex;
+        background-color: #7695EC;
+        h1{
+            font-size: 2.2rem;
+            font-weight: bold;
+            line-height: 2.578rem;
+            color: #ffffff;
+        }
+    }
+
+    .addPostContainer{
+        padding: 2.7rem 3.7rem;
+
+        .addPost{
+            border: 1px solid #999999;
+            border-radius: 1.6rem;
+            padding: 2.4rem;
+            h2{
+                font-size: 2.2rem;
+                font-weight: bold;
+                line-height: 2.578rem;
+                margin-bottom: 2.4rem;
+              
+            }
+
+            form{
+
+                display: flex;
+                flex-direction: column;
+                gap: 2.4rem;
+                .input{
+                    font-size: 1.6rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.8rem;
+
+                    label{
+                        font-size: 1.6rem;
+                        line-height: 1.875rem;
+                    }
+
+                    input[type="text"]{
+                        padding: 0.8rem 1.068rem;
+                        border-radius: 0.8rem;
+                        border: 1px solid #999999;
+
+                        &:focus{
+                            outline: none;
+                            border: 1px solid #7695EC;
+                        }
+                    }
+                    textarea{
+                        padding: 0.8rem 1.068rem;
+                        border-radius: 0.8rem;
+                        border: 1px solid #999999;
+
+                        &:focus{
+                            outline: none;
+                            border: 1px solid #7695EC;
+                        }
+
+                    }
+                  
+                }
+                .active, .disabled {
+                    display: flex;
+                    align-self: flex-end;
+                    width: 111px;
+                    cursor: pointer;
+                    align-items: center;
+                    justify-content: center;
+                    color: #ffffff;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    padding: 0.68rem 1.1rem;
+                    border-radius: 0.8rem;
+                    border: none;
+                    transition: background-color 0.5s ease;
+                  }
+                  
+                  .active {
+                    background-color: #7695EC;
+                  }
+                  
+                  .disabled {
+                    background-color: #DDDDDD;
+                  }
+            }
+        }
+    }
+
+    .postsContainer{
+        padding: 2.7rem 3.7rem;
+    }
